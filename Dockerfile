@@ -1,8 +1,8 @@
 FROM ubuntu:latest
-MAINTAINER NapalmZ <admin@napalmz.eu>
+LABEL maintainer="NapalmZ <admin@napalmz.eu>"
 
 # PHP Version
-ENV PHPVER=8.1
+ENV PHPVER=8.2.3
 ENV TZ=Europe/Rome
 
 # Install apache, PHP, and supplimentary programs. curl and lynx-cur are for debugging the container.
